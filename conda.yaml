@@ -1,9 +1,12 @@
-name: fair
+name: f
 
 channels:
   - defaults
+  - conda-forge
 dependencies:
-  - python>=3.5
+  - ipython
+  - mlflow
   - pip
+  
   - pip:
     - -r requirements.txt
